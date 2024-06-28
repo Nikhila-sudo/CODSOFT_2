@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Website</title>
+    <link rel="stylesheet" type="text/css" href="css/hello.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        body{
+           background-image:url('intern.png');
+           background-repeat:no-repeat;
+           background-attachment:fixed;
+           background-size:100% 100%;
+          }
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+       .container {
+            height: 100vh;
+            background-image: url('images/intern.png');
+            background-position: center;
+            background-size: cover;
+        }
+         nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+        nav h1 {
+            float: left;
+            margin: 0;
+            padding-left: 20px;
+            color:#CD5C5C
+        }
+        nav ul {
+            list-style: none;
+            float: right;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 20px;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            background: #FFA07A;
+            border-radius: 5px;
+        }
+        .article {
+            text-align: center;
+            padding: 50px 0;
+
+        }
+       .article1{
+           float:left;
+           margin:0;
+           padding-left:60px;
+           color:#FFA07A;
+         }
+        .article h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .article1 p{
+           line-height:1.5;
+           font-size:0.6em;
+           color:#36454F;
+          }
+        .article p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #575757;
+        }
+       .program{
+            position: absolute;
+            top: 120pxpx;
+            right: 550px;
+            width: 100px;
+            height: auto;         }
+    </style>
+</head>
+    <section>
+        <div class="container">
+                <nav>
+                <h1>Logo</h1>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="article">
+                <h1>YOUR DREAMS, YOUR DESTINY</h1>
+                <p>GUIDE TO SUCCESSFUL INTERNSHIP</p>
+               <a href="#" class="btn">Download Now</a>
+           </div>
+           <div class="article1">
+               <h2>About us<h2>
+               <p>Our company has started with a simple mision to describe the<br>
+                mission or inspiration behind our company we envision a world<br> 
+                where your vision in one or two sentences.Our goal is to satisfy<br>
+                needs and solve their problems and improve the performance of the<br>
+                company.</p>
+          </div>
+         <div class="program">
+         <img src="C:\Users\nmadh\Downloads\logo1.png" alt="">
+        </div>
+    </section>
+</body>
+</html>
